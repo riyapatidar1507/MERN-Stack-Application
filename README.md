@@ -1,47 +1,77 @@
-# MERN-Stack-Application
-A full-stack MERN application featuring a React (Vite) frontend and Node.js/Express/MongoDB backend.
+🚀 MERN-Stack-Application
+
+A full-stack MERN application featuring a React (Vite) frontend and a Node.js / Express / MongoDB backend.
 
 🔗 Frontend Routes
-Public:
-"/" – Landing Page (Hero, About, Why Choose Us, Projects, Clients, Newsletter)
+Public
+
+/ – Landing Page (Hero, About, Why Choose Us, Projects, Clients, Newsletter)
 
 Admin
-"/admin" – Admin Panel to manage projects, clients, contacts, and newsletter data.
 
-🔌 Backend API (all prefixed with /api)
-Projects – /api/projects
-GET / – Get all projects
-POST / – Create project (with image upload)
+/admin – Admin Panel to manage projects, clients, contacts, and newsletter data
 
-Clients – /api/clients
-GET / – Get all clients
-POST / – Create client (with image upload)
+🔌 Backend API (all routes prefixed with /api)
+📁 Projects – /api/projects
 
-Contacts – /api/contacts
-GET / – Get all submissions
-POST / – Submit contact form
+GET / – Retrieve all projects
 
-Newsletter – /api/newsletter
-GET / – Get all subscribers
-POST / – Subscribe to newsletter
+POST / – Create a new project (supports image upload)
 
+👥 Clients – /api/clients
+
+GET / – Retrieve all clients
+
+POST / – Create a new client (image upload supported)
+
+📨 Contacts – /api/contacts
+
+GET / – Retrieve all contact submissions
+
+POST / – Submit a new contact request
+
+📰 Newsletter – /api/newsletter
+
+GET / – Get all newsletter subscribers
+
+POST / – Add a new subscription
 
 🛠 Tech Stack
-Frontend: React, Vite, React Router
-Backend: Node.js, Express, MongoDB, Multer
-Database: MongoDB
+Frontend
+
+React
+
+Vite
+
+React Router
+
+Backend
+
+Node.js
+
+Express.js
+
+MongoDB
+
+Multer (image uploads)
+
+Database
+
+MongoDB / MongoDB Atlas
 
 ▶️ Getting Started
-# Backend
+Backend
 cd backend
 npm install
 npm start
 
-# Frontend
+Frontend
 cd frontend/vite-project
 npm install
 npm run dev
 
+🌐 Access Application
 
 App: http://localhost:5173/
-Admin: http://localhost:5173/admin
+
+Admin Panel: http://localhost:5173/admin
